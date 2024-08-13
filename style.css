@@ -1,0 +1,159 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.navbar {
+    position: sticky;
+    /* top: 0px; */
+    top: 0;
+    width: 100%;
+    /* background: #33333368; */
+    padding: 15px 0;
+    background-color: rgb(62, 62, 62);
+
+    /* height: 100px; */
+    z-index: 1000;
+    /* box-shadow: 0 0 10px #aaa; */
+
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link-item {
+    margin: 0 15px;
+    padding: 7px 13px;
+    /* background-color: #cacacabc; */
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 8px;
+    
+}
+
+.link-item a {
+    /* color: #fff; */
+    color: rgb(255, 255, 255);
+
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+.link-item a:hover {
+    background: #555;
+}
+
+.hero-section {
+    height: 100vh;
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+#hero-section {
+    width: 100vw;
+
+}
+
+.hero-content {
+    background: url("cover.webp");
+    /* max-width: 600px; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+}
+
+.btn-primary {
+    background: #007BFF;
+}
+
+.btn-secondary {
+    background: #6C757D;
+}
+
+.features, .testimonials, .destinations, .about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features h2, .testimonials h2, .destinations h2, .about h2 {
+    margin-bottom: 30px;
+}
+
+.feature-item, .destination-item {
+    margin: 20px 0;
+}
+
+.feature-item i, .destination-item img {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.footer-content {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-links li {
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
